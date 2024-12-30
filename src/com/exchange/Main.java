@@ -1,11 +1,14 @@
 package com.exchange;
 
+import com.exchange.consultas.Moneda;
+
 import java.util.Scanner;
 
 public class Main {
 	public static void main(String[] args) {
 
 		Scanner teclado = new Scanner(System.in);
+
 
 		String separador = "***************************";
 		String opciones = """
